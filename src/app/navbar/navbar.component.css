@@ -1,11 +1,11 @@
 img{
     height:60px;
-    width:90px;
-    border-radius: 50%;
+    width:100px;
+    border-radius: 20%;
     
 }
 .navbar{
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 3px solid red;
     padding: 0px;
     margin: 0px;
     /* background-color: lightyellow; */
@@ -48,13 +48,13 @@ ul li a{
     color: lightskyblue;
 }
 .btn{
-    border:1px solid lightskyblue;
+    border:1px solid black;
     height:30px;
     width:80px;
-    color:lightskyblue;
-    font-size: 13px;
+    color:black;
+    font-size: 15px;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: grey;
     color:white;
 }

@@ -15,6 +15,9 @@
   font-family: 'Courgette', cursive;
   
 }
+.rating{
+  font-size: 18px;
+}
 .dropdown-item{
   font-size: 20px;
   font-family: 'Courgette', cursive;
@@ -59,11 +62,13 @@ ul li a{
 .noteCardContainer {
   text-align: center;
    align-items: center;
+   border-color: black;
+   border-radius: 30px;
   width: 400px;
   /* height: 200px; */
   display:inline-block;
   /* padding: 0px; */
-  background:lightcoral !important;
+  background:lightgreen !important;
 background-color: none !important;  
 }
 .noteCardContainer img{
@@ -97,17 +102,21 @@ box-shadow: none !important;
 }
 .jumbotron{
   text-align: center;
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  border-bottom: 3px solid red;
+  background-color:burlywood;
   /* background-color: pink !important; */
   font-family: 'Montserrat', sans-serif;
   
 }
 .button{
   width: 180px;
- 
 }
 h4{
   font-size: 20px;
+  text-align: center;
   /* text-align: center; */
   /* text-decoration: underline; */
   margin-left: 60px;
@@ -119,6 +128,7 @@ font-size: 20px;
 color: #b43498 !important;
 }
 /*  */
+
 .input{
   border-radius: 30px;
   height:50px;
@@ -145,7 +155,8 @@ color: #b43498 !important;
 .background-change{
 
   background-color: lightcyan;
-  padding-top: 8px;
+  padding-top: 20px;
+  border-top: 3px solid blue;
 }
 /* footer */
 .site-footer-container {    display: -webkit-flex;    display: -ms-flexbox;    display: flex;    flex-direction: row;}
